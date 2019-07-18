@@ -4,7 +4,7 @@ require "singleton"
 class NullPiece < Piece
   include Singleton
   def initialize
-    @symbol = :N
+    @symbol = " "
   end
 
 
